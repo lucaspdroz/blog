@@ -1,0 +1,29 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+import { getCollection } from "astro:content";
+
+import EmblaCarousel from "../../components/carousel/EmblaCarousel";
+
+// const projects = await getCollection("projects");
+
+export async function getStaticPaths() {
+  // return projects.map((post) => ({
+  //   params: { slug: post.slug },
+  //   props: post,
+  // }));
+}
+---
+
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <Header />
+  <EmblaCarousel />
+  <Footer />
+</html>
