@@ -5,13 +5,15 @@ interface Props {
 }
 
 const { tags, withHref } = Astro.props;
+
+const isHome = Astro.url.pathname == "/";
 ---
 
-<div class="flex flex-wrap md:justify-center">
+<div class="flex flex-wrap md:justify-center m-4 gap-2 md:gap-2">
 	{
 		tags.map((tag: string) => {
 			const element = (
-				<span class="mb-2 mr-2 rounded-xl bg-stone-600 px-3 py-1 text-xs font-bold uppercase text-white hover:bg-stone-500">
+				<span class="mb-2 mr-2 rounded-xl bg-stone-600 px-3 py-1 text-xs font-bold uppercase text-white hover:bg-stone-500 ${isHomeRoute ? 'm-4 gap-2 md:gap-2' : ''}`}">
 					{tag}
 				</span>
 			);
