@@ -1,5 +1,5 @@
 ---
-import Section from './Section.astro';
+import Section from "./Section.astro";
 ---
 
 <Section>
@@ -42,7 +42,7 @@ import Section from './Section.astro';
 
 	.content pre > code .highlighted {
 		border-left: 0.5rem solid rgba(209, 213, 219, 0.6) !important;
-		background-color: rgba(229, 231, 235, 0.05);
+		background-color: rgba(0, 81, 244, 0.05);
 	}
 	/** 
      *  data-line-numbers will be enabled on markdown  
@@ -61,7 +61,7 @@ import Section from './Section.astro';
 		color: #7ca2dfad;
 	}
 	.content pre > code > span[data-line]::before {
-		content: '';
+		content: "";
 		display: inline-block;
 		width: 1rem;
 		text-align: right;
@@ -71,11 +71,14 @@ import Section from './Section.astro';
      *  we'll need to adjust the space required 
      *  the number depending on the number of digits 
      */
-	.content pre > code[data-line-numbers-max-digits='2'] > span[data-line]::before {
+	.content
+		pre
+		> code[data-line-numbers-max-digits="2"]
+		> span[data-line]::before {
 		width: 2rem;
 	}
 
-	.content code[data-line-numbers-max-digits='3'] > span[data-line]::before {
+	.content code[data-line-numbers-max-digits="3"] > span[data-line]::before {
 		width: 3rem;
 	}
 </style>

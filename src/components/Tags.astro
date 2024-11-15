@@ -13,7 +13,9 @@ const isHome = Astro.url.pathname == "/";
 	{
 		tags.map((tag: string) => {
 			const element = (
-				<span class="mb-2 mr-2 rounded-xl bg-stone-600 px-3 py-1 text-xs font-bold uppercase text-white hover:bg-stone-500 ${isHomeRoute ? 'm-4 gap-2 md:gap-2' : ''}`}">
+				<span
+					class={`mb-2 mr-2 rounded-xl bg-stone-600 px-3 py-1 text-xs font-bold uppercase text-white hover:bg-stone-500 ${isHome ? "md:m-0 md:gap-2" : "gap-2"}`}
+				>
 					{tag}
 				</span>
 			);
