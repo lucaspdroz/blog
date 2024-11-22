@@ -13,7 +13,7 @@ tags: ["cybersecurity", "ethical hacking", "linux"]
 
 Linux has a grub configuration to initialize our OS
 
-<video src="password_reseting_linux_debian.mp4" controls>Your browser does not support the video tag</video>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/t-C25ygqIA8"></iframe>
 
 ### 1. Configuration
 
