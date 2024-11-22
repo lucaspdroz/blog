@@ -1,21 +1,19 @@
 ---
 layout: ../../layouts/post.astro
 title: "Linux reset password (Debian based)"
-pubDate: 2024-11-15
+pubDate: 2024-11-22
 description: "Dive in how to work around."
 author: "lucaspdroz"
 excerpt: Dive in how to work around.
 image:
-  src: /password_reseting_linux_debian.mov
+  src: /password_reseting_linux_debian.mp4
   alt: Dive in how to work around.
 tags: ["cybersecurity", "ethical hacking", "linux"]
 ---
 
 Linux has a grub configuration to initialize our OS
 
-<video src="password_reseting_linux_debian.mov" controls>
-  Your browser does not support the video tag.
-</video>
+<video src="password_reseting_linux_debian.mp4" controls>Your browser does not support the video tag</video>
 
 ### 1. Configuration
 
