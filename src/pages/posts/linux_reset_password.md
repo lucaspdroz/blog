@@ -11,12 +11,11 @@ image:
 tags: ["cybersecurity", "ethical hacking", "linux"]
 ---
 
-Linux has a grub configuration to initialize our OS
-
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/t-C25ygqIA8"></iframe>
 
 ### 1. Configuration
 
+- Linux has a grub configuration to initialize our OS
 - Press E enter on grub mode (if your grub doesn't show) PS: it could be other character
 - Press E to enter into edit mode
 - Look for a line that begins with linux and probably ends with quiet
