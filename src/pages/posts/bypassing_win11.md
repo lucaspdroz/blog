@@ -19,7 +19,7 @@ Download the oficial ISO on [Microsoft](https://www.microsoft.com/en-gb/software
 
 ![a](/wind11bypass/1.webp)
 
-2 Mount Windows 11 Drive or Extract the ISO file using 7Zip software for free
+2.Mount Windows 11 Drive or Extract the ISO file using 7Zip software for free
 
 ![a](/wind11bypass/2.webp)
 
