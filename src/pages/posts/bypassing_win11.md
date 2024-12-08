@@ -11,7 +11,7 @@ image:
 tags: ["Windows", "ethical hacking"]
 ---
 
-Download the oficial ISO on [Microsoft](https://www.microsoft.com/en/software-download/windows11)
+Download the oficial ISO on [Microsoft](https://www.microsoft.com/en-gb/software-download/windows11)
 
 ### Steps to Follow
 
@@ -25,7 +25,9 @@ Download the oficial ISO on [Microsoft](https://www.microsoft.com/en/software-do
 
 3.Now open CMD “command prompt” on your windows 10 go to start and search
 4.Now go to your Windows 11 folder or Mount Disk folder  “Sources” with Command:
+
 ![a](/wind11bypass/3.webp)
+
 ex:
 
 ```shell showLineNumbers
@@ -42,7 +44,7 @@ cd F:\sources
 ![a](/wind11bypass/5.webp)
 
 ```shell showLineNumbers
-setupprep.exe /product server
+.\setupprep.exe /product server
 ```
 
 than go install now you will see “installing windows server”
