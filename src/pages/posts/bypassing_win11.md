@@ -23,7 +23,7 @@ Download the oficial ISO on [Microsoft](https://www.microsoft.com/en-gb/software
 
 ![a](/wind11bypass/2.webp)
 
-3.Now open CMD “command prompt” on your windows 10 go to start and search
+3.Now open CMD “command prompt” on your windows 10 go to start and search or use `shift` + `(mouse) right-click` (and select `open cmd here`, go to step **sources**)
 4.Now go to your Windows 11 folder or Mount Disk folder  “Sources” with Command:
 
 ![a](/wind11bypass/3.webp)
@@ -34,6 +34,7 @@ ex:
 F:
 ```
 
+**sources**
 then enter in your sources:
 
 ```shell showLineNumbers
