@@ -43,7 +43,7 @@ less /etc/passwd
 To restart you can't use shutdown because it's not started the OS itself, so use the following command to  restart:
 
 ```sh
-exec /sbin/iinit 6
+exec /sbin/init 6
 ```
 
 ### 3. **Done! You has changed the user password!**
